@@ -28,7 +28,6 @@ const ProfileForm = () => {
         history.replace('/')
     })
   }
-
   return (
     <form className={classes.form} onSubmit={submitHandler}>
       <div className={classes.control}>
